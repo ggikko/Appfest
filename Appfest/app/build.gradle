@@ -43,7 +43,8 @@ dependencies {
     apt "org.projectlombok:lombok:1.12.6"
 
     // Butterknife
-    compile 'com.jakewharton:butterknife:8.0.1'
+    compile 'com.jakewharton:butterknife:8.1.0'
+    apt 'com.jakewharton:butterknife-compiler:8.1.0'
 
     // Retrofit
     compile 'com.squareup.retrofit2:retrofit:2.0.0'
